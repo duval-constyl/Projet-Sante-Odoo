@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <record id="clinic_chambre_action" model="ir.actions.act_window">
+        <field name="name">Gestion Des Chambres</field>
+        <field name="res_model">clinic.chambre</field>
+<!--        <field name="view_mode">kanban,form,tree</field>-->
+         <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                REFERENCEZ VOS CHAMBRES
+            </p>
+        </field>
+     </record>
+
+    <menuitem name="Hopital"
+ 	id="clinic_base_menu"/>
+
+    <menuitem name="Chambre"
+        id="clinic_chambre_menu"
+        parent="clinic_base_menu"
+        sequence="50"
+	    action="clinic_chambre_action"/>
+</odoo>

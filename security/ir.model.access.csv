@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+clinic_chambre,clinic.chambre,model_clinic_chambre,,1,1,1,1
+clinic_chirurgie,clinic.chirurgie,model_clinic_chirurgie,,1,1,1,1
+clinic_compte,clinic.compte,model_clinic_compte,,1,1,1,1
+clinic_consultation,clinic.consultation,model_clinic_consultation,,1,1,1,1
+clinic_factures,clinic.factures,model_clinic_factures,,1,1,1,1
+clinic_inventaire,clinic.inventaire,model_clinic_inventaire,,1,1,1,1
+clinic_patient,clinic.patient,model_clinic_patient,,1,1,1,1
+clinic_personnel,clinic.personnel,model_clinic_personnel,,1,1,1,1
+clinic_pharmacie,clinic.pharmacie,model_clinic_pharmacie,,1,1,1,1
